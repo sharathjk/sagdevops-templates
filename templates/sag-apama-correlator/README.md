@@ -61,8 +61,7 @@ tooling:
 sagcc exec templates composite import -i template.zip
 ```
 
-Consult [Applying template using Command Central CLI](https://github.com/SoftwareAG/sagdevops-templates/wiki/Using-default-templates#applying-template-using-command-central-cli)
-for general information about applying templates.
+For more information, see [Applying template using Command Central CLI](https://github.com/SoftwareAG/sagdevops-templates/wiki/Using-default-templates#applying-template-using-command-central-cli).
 
 Provision `default` instance of an Apama 10.2 correlator with all the
 latest fixes, listening on port 15904:
@@ -80,5 +79,4 @@ sagcc exec templates composite apply sag-apama-correlator nodes=sag1 \
 Once imported, this template can also be used as a runtime layer for stacks,
 using either the CLI or the web UI.
 
-Consult [Creating a stack using Command Central Web UI](https://github.com/SoftwareAG/sagdevops-templates/wiki/Using-default-templates#creating-a-new-stack-using-web-ui)
-for additional information about using Stacks UI.
+For more information, see [Creating a stack using Command Central Web UI](https://github.com/SoftwareAG/sagdevops-templates/wiki/Using-default-templates#creating-a-new-stack-using-web-ui).
